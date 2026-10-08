@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover" />
+  <title>Hainan Maritime Warning Monitor</title>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <div>
+      <h1>Cảnh báo hàng hải Hải Nam</h1>
+      <p>Bắn đạn thật · Huấn luyện/diễn tập quân sự · 2025–2026</p>
+    </div>
+    <span id="lastUpdate" class="pill">Đang tải…</span>
+  </header>
+
+  <section class="controls">
+    <label>Từ ngày <input type="date" id="fromDate"></label>
+    <label>Đến ngày <input type="date" id="toDate"></label>
+    <label>Năm
+      <select id="year"><option value="all">Tất cả</option><option>2026</option><option>2025</option></select>
+    </label>
+    <label>Loại
+      <select id="category"><option value="all">Tất cả</option><option value="LIVE_FIRE">Bắn đạn thật</option><option value="MILITARY_TRAINING">Quân sự</option></select>
+    </label>
+    <button id="reset">Đặt lại</button>
+  </section>
+
+  <main>
+    <div id="map"></div>
+    <aside id="list"></aside>
+  </main>
+
+  <footer>Dữ liệu tham khảo từ Hainan MSA / China MSA. Không thay thế thông báo hàng hải chính thức.</footer>
+
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
