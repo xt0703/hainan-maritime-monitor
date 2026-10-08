@@ -28,10 +28,10 @@ jobs:
           unzip -q -o "$ZIP" -d /tmp/hainan-bootstrap
 
           test -d /tmp/hainan-bootstrap/hainan-maritime-monitor
-          cp -a /tmp/hainan-bootstrap/hainan-maritime-monitor/. .
+rm -rf /tmp/hainan-bootstrap/hainan-maritime-monitor/.github
+cp -a /tmp/hainan-bootstrap/hainan-maritime-monitor/. .
 
-          rm -f "$ZIP"
-          rm -f .github/workflows/bootstrap.yml
+rm -f "$ZIP"
 
       - name: Commit project files
         shell: bash
