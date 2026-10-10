@@ -1,54 +1,39 @@
-name: Update maritime warnings and deploy
+name: Deploy maritime warning map
 
 on:
-  schedule:
-    - cron: '17 * * * *'
+  push:
+    branches:
+      - main
+    paths:
+      - 'docs/**'
+      - '.github/workflows/update.yml'
   workflow_dispatch:
 
 permissions:
-  contents: write
+  contents: read
   pages: write
   id-token: write
 
 concurrency:
-  group: maritime-monitor
-  cancel-in-progress: false
+  group: github-pages
+  cancel-in-progress: true
 
 jobs:
-  update:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
-        with:
-          python-version: '3.12'
-          cache: 'pip'
-      - run: pip install -r requirements.txt
-      - run: python crawler/main.py
-      - name: Commit data changes
-        run: |
-          if git diff --quiet; then
-            echo "No data change"
-          else
-            git config user.name "hainan-warning-bot"
-            git config user.email "actions@users.noreply.github.com"
-            git add data/notices.json docs/data/notices.json
-            git commit -m "data: update maritime warnings"
-            git push
-          fi
-
   deploy:
-    needs: update
     runs-on: ubuntu-latest
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
+
     steps:
       - uses: actions/checkout@v4
+
       - uses: actions/configure-pages@v5
+
       - uses: actions/upload-pages-artifact@v3
         with:
           path: docs
+
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
