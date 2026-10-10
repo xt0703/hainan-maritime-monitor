@@ -1,5 +1,681 @@
 [
   {
+    "record_id": "HN93-26",
+    "notice_no_cn": "琼航警93/26",
+    "notice_no_en": "HN93/26",
+    "year": 2026,
+    "category": "MILITARY_TRAINING",
+    "title_cn": "军事训练/演习",
+    "title_vi": "Huấn luyện/diễn tập quân sự",
+    "issued_at_cn": null,
+    "restriction_start_cn": "2026-06-11T15:00:00+08:00",
+    "restriction_end_cn": "2026-06-13T17:00:00+08:00",
+    "restriction_start_vn": "2026-06-11T14:00:00+07:00",
+    "restriction_end_vn": "2026-06-13T16:00:00+07:00",
+    "status": "EXPIRED",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        110.951167,
+        19.6145
+      ],
+      "radius_nm": 5.4
+    },
+    "area_name_cn": "南海",
+    "area_name_vi": "Biển Đông",
+    "body_cn": "琼航警93/26，南海，\n自6月11日至6月13日，每日1500时至1700时，在以19-36.87N /110-57.07E为中心，5.4海里为半径的圆形区域内进行军事训练，禁止驶入。\n▲图源:中华人民共和国海事局，侵权必删\n军事训练-",
+    "body_vi": "HN93/26: Huấn luyện/diễn tập hoặc hoạt động quân sự tại Biển Đông; vùng tròn bán kính 5.4 hải lý; cấm tàu thuyền đi vào.",
+    "source_url": "https://www.54seaman.com/news/index/detail/id/143652.html",
+    "source_kind": "mirror",
+    "first_seen_at": "2026-10-10T11:09:59+07:00",
+    "updated_at": "2026-10-10T11:09:59+07:00",
+    "checksum": "a03f9bc37abefdae75ad"
+  },
+  {
+    "record_id": "HN92-26",
+    "notice_no_cn": "琼航警92/26",
+    "notice_no_en": "HN92/26",
+    "year": 2026,
+    "category": "MILITARY_TRAINING",
+    "title_cn": "军事训练/演习",
+    "title_vi": "Huấn luyện/diễn tập quân sự",
+    "issued_at_cn": null,
+    "restriction_start_cn": "2026-06-10T08:00:00+08:00",
+    "restriction_end_cn": "2026-06-12T18:00:00+08:00",
+    "restriction_start_vn": "2026-06-10T07:00:00+07:00",
+    "restriction_end_vn": "2026-06-12T17:00:00+07:00",
+    "status": "EXPIRED",
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            110.89,
+            19.355
+          ],
+          [
+            110.94,
+            19.355
+          ],
+          [
+            110.94,
+            19.305
+          ],
+          [
+            110.89,
+            19.305
+          ],
+          [
+            110.89,
+            19.355
+          ]
+        ]
+      ]
+    },
+    "area_name_cn": "南海",
+    "area_name_vi": "Biển Đông",
+    "body_cn": "琼航警92/26，南海，\n自6月10日0800时至6月12日1800时，在\n19-21.3N/110-53.4E、\n19-21.3N/110-56.4E、\n19-18.3N/110-56.4E和\n19-18.3N/110-53.4E\n四点连线水域范围内进行军事训练，\n禁止驶入。\n▲图源:中华人民共和国海事局，侵权必删",
+    "body_vi": "HN92/26: Huấn luyện/diễn tập hoặc hoạt động quân sự tại Biển Đông; khu vực đa giác 4 điểm; cấm tàu thuyền đi vào.",
+    "source_url": "https://www.54seaman.com/news/index/detail/id/143652.html",
+    "source_kind": "mirror",
+    "first_seen_at": "2026-10-10T11:09:59+07:00",
+    "updated_at": "2026-10-10T11:09:59+07:00",
+    "checksum": "defe03a5f108e8c22386"
+  },
+  {
+    "record_id": "HN48-26",
+    "notice_no_cn": "琼航警48/26",
+    "notice_no_en": "HN48/26",
+    "year": 2026,
+    "category": "LIVE_FIRE",
+    "title_cn": "实弹射击训练",
+    "title_vi": "Huấn luyện/bắn đạn thật",
+    "issued_at_cn": null,
+    "restriction_start_cn": "2026-04-17T08:00:00+08:00",
+    "restriction_end_cn": "2026-04-17T12:00:00+08:00",
+    "restriction_start_vn": "2026-04-17T07:00:00+07:00",
+    "restriction_end_vn": "2026-04-17T11:00:00+07:00",
+    "status": "EXPIRED",
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            110.525,
+            18.875
+          ],
+          [
+            110.633333,
+            18.875
+          ],
+          [
+            110.633333,
+            18.775
+          ],
+          [
+            110.525,
+            18.775
+          ],
+          [
+            110.525,
+            18.875
+          ]
+        ]
+      ]
+    },
+    "area_name_cn": "南海",
+    "area_name_vi": "Biển Đông",
+    "body_cn": "琼航警48/26，南海，\n自2026年4月17日0800时至1200时，\n在18-52.50N/110-31.50E、\n18-52.50N/110-38.00E、\n18-46.50N/110-38.00E和\n18-46.50N/110-31.50E\n四点连线水域范围内进行\n军事训练，\n禁止驶入。\n▲图源:中华人民共和国海事局，侵权必删\n实弹射击-",
+    "body_vi": "HN48/26: Huấn luyện/bắn đạn thật tại Biển Đông; khu vực đa giác 4 điểm; cấm tàu thuyền đi vào.",
+    "source_url": "https://www.54seaman.com/news/detail_143464.html",
+    "source_kind": "mirror",
+    "first_seen_at": "2026-10-10T11:09:57+07:00",
+    "updated_at": "2026-10-10T11:09:57+07:00",
+    "checksum": "418eb67ab5da2a49a8ae"
+  },
+  {
+    "record_id": "HN46-26",
+    "notice_no_cn": "琼航警46/26",
+    "notice_no_en": "HN46/26",
+    "year": 2026,
+    "category": "MILITARY_TRAINING",
+    "title_cn": "军事训练/演习",
+    "title_vi": "Huấn luyện/diễn tập quân sự",
+    "issued_at_cn": null,
+    "restriction_start_cn": "2026-04-15T08:00:00+08:00",
+    "restriction_end_cn": "2026-04-17T08:00:00+08:00",
+    "restriction_start_vn": "2026-04-15T07:00:00+07:00",
+    "restriction_end_vn": "2026-04-17T07:00:00+07:00",
+    "status": "EXPIRED",
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            110.953667,
+            19.958333
+          ],
+          [
+            111.233333,
+            19.958333
+          ],
+          [
+            111.233333,
+            19.825
+          ],
+          [
+            110.996333,
+            19.825
+          ],
+          [
+            110.953667,
+            19.958333
+          ]
+        ]
+      ]
+    },
+    "area_name_cn": "南海",
+    "area_name_vi": "Biển Đông",
+    "body_cn": "琼航警46/26，南海，\n自2026年4月15日0800时至4月17日0800时，\n在19-57.50N/110-57.22E、\n19-57.50N/111-14.00E、\n19-49.50N/111-14.00E和\n19-49.50N/110-59.78E\n四点连线水域范围内进行\n军事训练，\n禁止驶入。\n▲图源:中华人民共和国海事局，侵权必删\n军事训练-",
+    "body_vi": "HN46/26: Huấn luyện/diễn tập hoặc hoạt động quân sự tại Biển Đông; khu vực đa giác 4 điểm; cấm tàu thuyền đi vào.",
+    "source_url": "https://www.54seaman.com/news/detail_143464.html",
+    "source_kind": "mirror",
+    "first_seen_at": "2026-10-10T11:09:57+07:00",
+    "updated_at": "2026-10-10T11:09:57+07:00",
+    "checksum": "b460eb705d7f4feb0a34"
+  },
+  {
+    "record_id": "HN166-26",
+    "notice_no_cn": "琼航警166/26",
+    "notice_no_en": "HN166/26",
+    "year": 2026,
+    "category": "MILITARY_TRAINING",
+    "title_cn": "军事训练/演习",
+    "title_vi": "Huấn luyện/diễn tập quân sự",
+    "issued_at_cn": null,
+    "restriction_start_cn": "2026-08-27T06:00:00+08:00",
+    "restriction_end_cn": "2026-08-29T22:00:00+08:00",
+    "restriction_start_vn": "2026-08-27T05:00:00+07:00",
+    "restriction_end_vn": "2026-08-29T21:00:00+07:00",
+    "status": "EXPIRED",
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            110.953667,
+            19.958333
+          ],
+          [
+            111.233333,
+            19.958333
+          ],
+          [
+            111.233333,
+            19.825
+          ],
+          [
+            110.9965,
+            19.825
+          ],
+          [
+            110.953667,
+            19.958333
+          ]
+        ]
+      ]
+    },
+    "area_name_cn": "南海",
+    "area_name_vi": "Biển Đông",
+    "body_cn": "琼航警166/26，南海，\n8月27日0600时至29日2200时，\n在19-57.50N/110-57.22E、\n19-57.50N/111-14.00E、\n19-49.50N/111-14.00E和\n19-49.50N/110-59.79E\n四点连线水域范围内进行军事训练，禁止驶入。\n▲图源:中华人民共和国海事局，侵权必删\n南海EP21-6-2井钻井作业-",
+    "body_vi": "HN166/26: Huấn luyện/diễn tập hoặc hoạt động quân sự tại Biển Đông; khu vực đa giác 4 điểm; cấm tàu thuyền đi vào.",
+    "source_url": "https://www.54seaman.com/news/detail_143922.html",
+    "source_kind": "mirror",
+    "first_seen_at": "2026-10-10T11:10:03+07:00",
+    "updated_at": "2026-10-10T11:10:03+07:00",
+    "checksum": "74fec81bdf7202d42c23"
+  },
+  {
+    "record_id": "HN160-26",
+    "notice_no_cn": "琼航警160/26",
+    "notice_no_en": "HN160/26",
+    "year": 2026,
+    "category": "LIVE_FIRE",
+    "title_cn": "实弹射击训练",
+    "title_vi": "Huấn luyện/bắn đạn thật",
+    "issued_at_cn": null,
+    "restriction_start_cn": "2026-08-12T09:00:00+08:00",
+    "restriction_end_cn": "2026-08-18T18:00:00+08:00",
+    "restriction_start_vn": "2026-08-12T08:00:00+07:00",
+    "restriction_end_vn": "2026-08-18T17:00:00+07:00",
+    "status": "EXPIRED",
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            111.123,
+            20.110833
+          ],
+          [
+            110.925,
+            20.044167
+          ],
+          [
+            111.083,
+            19.485833
+          ],
+          [
+            111.296333,
+            19.5525
+          ],
+          [
+            111.123,
+            20.110833
+          ]
+        ]
+      ]
+    },
+    "area_name_cn": "南海",
+    "area_name_vi": "Biển Đông",
+    "body_cn": "琼航警160/26，南海，\n自8月12日至8月18日，每日0900时至1800时，\n在20-06.65N/111-07.38E、\n20-02.65N/110-55.50E、\n19-29.15N/111-04.98E和\n19-33.15N/111-17.78E\n四点连线水域范围内进行军事训练，禁止驶入。\n▲图源:网络，侵权必删\n实弹射击-",
+    "body_vi": "HN160/26: Huấn luyện/bắn đạn thật tại Biển Đông; khu vực đa giác 4 điểm; cấm tàu thuyền đi vào.",
+    "source_url": "https://www.54seaman.com/news/detail_143871.html",
+    "source_kind": "mirror",
+    "first_seen_at": "2026-10-10T11:10:01+07:00",
+    "updated_at": "2026-10-10T11:10:01+07:00",
+    "checksum": "ae87738a3cfd1522ea10"
+  },
+  {
+    "record_id": "HN159-26",
+    "notice_no_cn": "琼航警159/26",
+    "notice_no_en": "HN159/26",
+    "year": 2026,
+    "category": "MILITARY_TRAINING",
+    "title_cn": "军事训练/演习",
+    "title_vi": "Huấn luyện/diễn tập quân sự",
+    "issued_at_cn": null,
+    "restriction_start_cn": "2026-08-13T09:00:00+08:00",
+    "restriction_end_cn": "2026-08-13T12:00:00+08:00",
+    "restriction_start_vn": "2026-08-13T08:00:00+07:00",
+    "restriction_end_vn": "2026-08-13T11:00:00+07:00",
+    "status": "EXPIRED",
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            111.136,
+            19.785167
+          ],
+          [
+            111.041667,
+            20.031667
+          ],
+          [
+            110.9355,
+            20.012833
+          ],
+          [
+            111.062167,
+            19.66
+          ],
+          [
+            111.136,
+            19.785167
+          ]
+        ]
+      ]
+    },
+    "area_name_cn": "南海",
+    "area_name_vi": "Biển Đông",
+    "body_cn": "琼航警159/26，南海，\n8月13日0900时至1200时、14日1000时至1130时、15日0900时至1200时，\n在19-47.11N 111-08.16E、\n20-01.90N 111-02.50E、\n20-00.77N 110-56.13E和\n19-39.60N 111-03.73E\n四点连线水域范围内进行军事训练，禁止驶入。\n▲图源:网络，侵权必删\n军事训练-",
+    "body_vi": "HN159/26: Huấn luyện/diễn tập hoặc hoạt động quân sự tại Biển Đông; khu vực đa giác 4 điểm; cấm tàu thuyền đi vào.",
+    "source_url": "https://www.54seaman.com/news/detail_143871.html",
+    "source_kind": "mirror",
+    "first_seen_at": "2026-10-10T11:10:01+07:00",
+    "updated_at": "2026-10-10T11:10:01+07:00",
+    "checksum": "2a44551752c2651e51b9"
+  },
+  {
+    "record_id": "HN156-26",
+    "notice_no_cn": "琼航警156/26",
+    "notice_no_en": "HN156/26",
+    "year": 2026,
+    "category": "MILITARY_TRAINING",
+    "title_cn": "军事训练/演习",
+    "title_vi": "Huấn luyện/diễn tập quân sự",
+    "issued_at_cn": null,
+    "restriction_start_cn": "2026-08-11T06:00:00+08:00",
+    "restriction_end_cn": "2026-08-15T18:00:00+08:00",
+    "restriction_start_vn": "2026-08-11T05:00:00+07:00",
+    "restriction_end_vn": "2026-08-15T17:00:00+07:00",
+    "status": "EXPIRED",
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            111.2,
+            17.116667
+          ],
+          [
+            112.433333,
+            17.116667
+          ],
+          [
+            112.433333,
+            17.95
+          ],
+          [
+            111.2,
+            17.95
+          ],
+          [
+            111.2,
+            17.116667
+          ]
+        ]
+      ]
+    },
+    "area_name_cn": "南海",
+    "area_name_vi": "Biển Đông",
+    "body_cn": "琼航警156/26，南海，\n2026年8月11日0600时至2026年8月15日1800时，\n在17-07.00N 111-12.00E、\n17-07.00N 112-26.00E、\n17-57.00N 112-26.00E、\n17-57.00N 111-12.00E\n诸点连线范围内进行军事训练。\n禁止驶入。\n▲图源:网络，侵权必删\n军事训练-",
+    "body_vi": "HN156/26: Huấn luyện/diễn tập hoặc hoạt động quân sự tại Biển Đông; khu vực đa giác 4 điểm; cấm tàu thuyền đi vào.",
+    "source_url": "https://www.54seaman.com/news/detail_143871.html",
+    "source_kind": "mirror",
+    "first_seen_at": "2026-10-10T11:10:01+07:00",
+    "updated_at": "2026-10-10T11:10:01+07:00",
+    "checksum": "12408edbf3bc93e9d961"
+  },
+  {
+    "record_id": "HN155-26",
+    "notice_no_cn": "琼航警155/26",
+    "notice_no_en": "HN155/26",
+    "year": 2026,
+    "category": "MILITARY_TRAINING",
+    "title_cn": "军事训练/演习",
+    "title_vi": "Huấn luyện/diễn tập quân sự",
+    "issued_at_cn": null,
+    "restriction_start_cn": "2026-08-12T06:00:00+08:00",
+    "restriction_end_cn": "2026-08-14T18:30:00+08:00",
+    "restriction_start_vn": "2026-08-12T05:00:00+07:00",
+    "restriction_end_vn": "2026-08-14T17:30:00+07:00",
+    "status": "EXPIRED",
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            110.510833,
+            18.8645
+          ],
+          [
+            110.605833,
+            18.8645
+          ],
+          [
+            110.605833,
+            18.7745
+          ],
+          [
+            110.510833,
+            18.7745
+          ],
+          [
+            110.510833,
+            18.8645
+          ]
+        ]
+      ]
+    },
+    "area_name_cn": "南海",
+    "area_name_vi": "Biển Đông",
+    "body_cn": "琼航警155/26，南海，\n自8月12日0600时至8月14日1830时，\n在18-51.87N/110-30.65E、\n18-51.87N/110-36.35E、\n18-46.47N/110-36.35E和\n18-46.47N/110-30.65E\n四点连线水域范围内进行军事训练，禁止驶入。\n▲图源:网络，侵权必删\n军事训练-",
+    "body_vi": "HN155/26: Huấn luyện/diễn tập hoặc hoạt động quân sự tại Biển Đông; khu vực đa giác 4 điểm; cấm tàu thuyền đi vào.",
+    "source_url": "https://www.54seaman.com/news/detail_143871.html",
+    "source_kind": "mirror",
+    "first_seen_at": "2026-10-10T11:10:01+07:00",
+    "updated_at": "2026-10-10T11:10:01+07:00",
+    "checksum": "56293a0e7e5d0cda89fb"
+  },
+  {
+    "record_id": "HN145-26",
+    "notice_no_cn": "琼航警145/26",
+    "notice_no_en": "HN145/26",
+    "year": 2026,
+    "category": "MILITARY_TRAINING",
+    "title_cn": "军事训练/演习",
+    "title_vi": "Huấn luyện/diễn tập quân sự",
+    "issued_at_cn": null,
+    "restriction_start_cn": "2026-08-06T08:00:00+08:00",
+    "restriction_end_cn": "2026-08-08T18:00:00+08:00",
+    "restriction_start_vn": "2026-08-06T07:00:00+07:00",
+    "restriction_end_vn": "2026-08-08T17:00:00+07:00",
+    "status": "EXPIRED",
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            110.892833,
+            19.5095
+          ],
+          [
+            110.888333,
+            19.520333
+          ],
+          [
+            110.900667,
+            19.520333
+          ],
+          [
+            110.900667,
+            19.5095
+          ],
+          [
+            110.892833,
+            19.5095
+          ]
+        ]
+      ]
+    },
+    "area_name_cn": "南海",
+    "area_name_vi": "Biển Đông",
+    "body_cn": "琼航警145/26，南海，\n自8月6日至8月8日，每日0800时至1800时，\n在19-30.57N/110-53.57E、\n19-31.22N/110-53.30E、\n19-31.22N/110-54.04E和\n19-30.57N/110-54.04E\n四点连线水域范围内进行军事训练，禁止驶入。\n▲图源:中华人民共和国海事局，侵权必删\n军事训练-",
+    "body_vi": "HN145/26: Huấn luyện/diễn tập hoặc hoạt động quân sự tại Biển Đông; khu vực đa giác 4 điểm; cấm tàu thuyền đi vào.",
+    "source_url": "https://www.54seaman.com/news/detail_143848.html",
+    "source_kind": "mirror",
+    "first_seen_at": "2026-10-10T11:10:00+07:00",
+    "updated_at": "2026-10-10T11:10:00+07:00",
+    "checksum": "c2351a981d74d632b09f"
+  },
+  {
+    "record_id": "HN143-26",
+    "notice_no_cn": "琼航警143/26",
+    "notice_no_en": "HN143/26",
+    "year": 2026,
+    "category": "LIVE_FIRE",
+    "title_cn": "实弹射击训练",
+    "title_vi": "Huấn luyện/bắn đạn thật",
+    "issued_at_cn": null,
+    "restriction_start_cn": "2026-08-10T08:00:00+08:00",
+    "restriction_end_cn": "2026-08-14T18:00:00+08:00",
+    "restriction_start_vn": "2026-08-10T07:00:00+07:00",
+    "restriction_end_vn": "2026-08-14T17:00:00+07:00",
+    "status": "EXPIRED",
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            109.766833,
+            18.1845
+          ],
+          [
+            109.9845,
+            17.834
+          ],
+          [
+            110.4175,
+            18.067167
+          ],
+          [
+            110.201,
+            18.417833
+          ],
+          [
+            109.766833,
+            18.1845
+          ]
+        ]
+      ]
+    },
+    "area_name_cn": "南海",
+    "area_name_vi": "Biển Đông",
+    "body_cn": "琼航警143/26，南海，\n2026年8月10日0800时至2026年8月14日1800时，\n在18-11.07N 109-46.01E、\n17-50.04N 109-59.07E、\n18-04.03N 110-25.05E、\n18-25.07N 110-12.06E\n四点连线水域范围内进行射击训练，禁止驶入。\n▲图源:中华人民共和国海事局，侵权必删\n军事训练-",
+    "body_vi": "HN143/26: Huấn luyện/bắn đạn thật tại Biển Đông; khu vực đa giác 4 điểm; cấm tàu thuyền đi vào.",
+    "source_url": "https://www.54seaman.com/news/detail_143848.html",
+    "source_kind": "mirror",
+    "first_seen_at": "2026-10-10T11:10:00+07:00",
+    "updated_at": "2026-10-10T11:10:00+07:00",
+    "checksum": "2e8be9360df6c4dd35e8"
+  },
+  {
+    "record_id": "HN141-26",
+    "notice_no_cn": "琼航警141/26",
+    "notice_no_en": "HN141/26",
+    "year": 2026,
+    "category": "MILITARY_TRAINING",
+    "title_cn": "军事训练/演习",
+    "title_vi": "Huấn luyện/diễn tập quân sự",
+    "issued_at_cn": null,
+    "restriction_start_cn": null,
+    "restriction_end_cn": null,
+    "restriction_start_vn": null,
+    "restriction_end_vn": null,
+    "status": "UNKNOWN",
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            109.0,
+            17.866667
+          ],
+          [
+            109.833333,
+            17.866667
+          ],
+          [
+            109.833333,
+            17.35
+          ],
+          [
+            109.0,
+            17.35
+          ],
+          [
+            109.0,
+            17.866667
+          ]
+        ]
+      ]
+    },
+    "area_name_cn": "南海",
+    "area_name_vi": "Biển Đông",
+    "body_cn": "琼航警141/26，南海，\n2026年8月3日至2026年8月7日每日0500至2400时，\n8月8日0700-1800时，在\n17-52.00N 109-00.00E、\n17-52.00N 109-50.00E、\n17-21.00N 109-50.00E、\n17-21.00N 109-00.00E\n四点连线水域范围内进行军事训练，禁止驶入。\n▲图源:中华人民共和国海事局，侵权必删\n军事训练-",
+    "body_vi": "HN141/26: Huấn luyện/diễn tập hoặc hoạt động quân sự tại Biển Đông; khu vực đa giác 4 điểm; cấm tàu thuyền đi vào.",
+    "source_url": "https://www.54seaman.com/news/detail_143848.html",
+    "source_kind": "mirror",
+    "first_seen_at": "2026-10-10T11:10:00+07:00",
+    "updated_at": "2026-10-10T11:10:00+07:00",
+    "checksum": "e2d434f3bb15619b026a"
+  },
+  {
+    "record_id": "HN128-26",
+    "notice_no_cn": "琼航警128/26",
+    "notice_no_en": "HN128/26",
+    "year": 2026,
+    "category": "MILITARY_TRAINING",
+    "title_cn": "军事训练/演习",
+    "title_vi": "Huấn luyện/diễn tập quân sự",
+    "issued_at_cn": null,
+    "restriction_start_cn": "2026-07-21T06:00:00+08:00",
+    "restriction_end_cn": "2026-07-24T18:00:00+08:00",
+    "restriction_start_vn": "2026-07-21T05:00:00+07:00",
+    "restriction_end_vn": "2026-07-24T17:00:00+07:00",
+    "status": "EXPIRED",
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            110.9545,
+            19.8725
+          ],
+          [
+            110.951667,
+            19.995
+          ],
+          [
+            111.029667,
+            19.9925
+          ],
+          [
+            111.0105,
+            19.872833
+          ],
+          [
+            110.9545,
+            19.8725
+          ]
+        ]
+      ]
+    },
+    "area_name_cn": "南海",
+    "area_name_vi": "Biển Đông",
+    "body_cn": "琼航警128/26，南海，\n自7月21日0600时至7月24日1800时，\n在19-52.35N/110-57.27E、\n19-59.70N/110-57.10E、\n19-59.55N/111-01.78E和\n19-52.37N/111-00.63E\n四点连线水域范围内进行军事训练，禁止驶入。\n▲图源:中华人民共和国海事局，侵权必删\n水上水下作业-",
+    "body_vi": "HN128/26: Huấn luyện/diễn tập hoặc hoạt động quân sự tại Biển Đông; khu vực đa giác 4 điểm; cấm tàu thuyền đi vào.",
+    "source_url": "https://www.54seaman.com/news/index/detail/id/143774.html",
+    "source_kind": "mirror",
+    "first_seen_at": "2026-10-10T11:10:00+07:00",
+    "updated_at": "2026-10-10T11:10:00+07:00",
+    "checksum": "52efb344a1717ca5c387"
+  },
+  {
+    "record_id": "HN127-26",
+    "notice_no_cn": "琼航警127/26",
+    "notice_no_en": "HN127/26",
+    "year": 2026,
+    "category": "MILITARY_TRAINING",
+    "title_cn": "军事训练/演习",
+    "title_vi": "Huấn luyện/diễn tập quân sự",
+    "issued_at_cn": null,
+    "restriction_start_cn": "2026-07-17T19:30:00+08:00",
+    "restriction_end_cn": "2026-07-19T22:00:00+08:00",
+    "restriction_start_vn": "2026-07-17T18:30:00+07:00",
+    "restriction_end_vn": "2026-07-19T21:00:00+07:00",
+    "status": "EXPIRED",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        110.955333,
+        19.618667
+      ],
+      "radius_nm": 10.0
+    },
+    "area_name_cn": "南海",
+    "area_name_vi": "Biển Đông",
+    "body_cn": "琼航警127/26，南海，\n自7月17日至7月19日，每日1930时至2200时，\n在以19-37.12N /110-57.32E为中心，10海里为半径的圆形区域内进行军事训练，禁止驶入。\n▲图源:中华人民共和国海事局，侵权必删\n军事训练-",
+    "body_vi": "HN127/26: Huấn luyện/diễn tập hoặc hoạt động quân sự tại Biển Đông; vùng tròn bán kính 10 hải lý; cấm tàu thuyền đi vào.",
+    "source_url": "https://www.54seaman.com/news/index/detail/id/143774.html",
+    "source_kind": "mirror",
+    "first_seen_at": "2026-10-10T11:10:00+07:00",
+    "updated_at": "2026-10-10T11:10:00+07:00",
+    "checksum": "4b1e623735b0030c3a3f"
+  },
+  {
     "record_id": "HN85-25",
     "notice_no_cn": "琼航警85/25",
     "notice_no_en": "HN85/25",
