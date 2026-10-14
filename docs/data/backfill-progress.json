@@ -6,6 +6,27 @@
       "discovered": 0,
       "processed": 0,
       "errors": ""
+    },
+    {
+      "job_id": "2020-02",
+      "attempted_at": "2026-10-15T02:23:16.820249",
+      "discovered": 0,
+      "processed": 0,
+      "errors": ""
+    },
+    {
+      "job_id": "2020-03",
+      "attempted_at": "2026-10-15T02:23:20.900253",
+      "discovered": 0,
+      "processed": 0,
+      "errors": ""
+    },
+    {
+      "job_id": "2020-04",
+      "attempted_at": "2026-10-15T02:23:25.259366",
+      "discovered": 0,
+      "processed": 0,
+      "errors": ""
     }
   ],
   "expected_months": 82,
