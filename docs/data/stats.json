@@ -1,0 +1,33 @@
+{
+  "total": 22,
+  "by_year": {
+    "2020": 0,
+    "2021": 0,
+    "2022": 0,
+    "2023": 0,
+    "2024": 0,
+    "2025": 4,
+    "2026": 18
+  },
+  "by_category": {
+    "LIVE_FIRE": 7,
+    "MILITARY_EXERCISE": 0,
+    "JOINT_NAVAL_AIR_EXERCISE": 0,
+    "COMBAT_READINESS_PATROL": 0,
+    "NAVAL_EXERCISE": 0,
+    "AIR_EXERCISE": 0,
+    "MILITARY_TRAINING": 15,
+    "OTHER_MILITARY": 0
+  },
+  "by_source": {
+    "MSA": 5,
+    "SEALAGOM": 4,
+    "MOD": 0,
+    "PLA81": 0
+  },
+  "with_geometry": 22,
+  "generated_at": "2026-10-14T06:51:18+00:00",
+  "start_year": 2020,
+  "end_year": 2026,
+  "note": "Thống kê dựa trên dữ liệu đã thu thập; không phải danh mục đầy đủ mọi hoạt động từ 2020."
+}

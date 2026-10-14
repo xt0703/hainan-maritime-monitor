@@ -1,0 +1,13 @@
+{
+  "attempted_jobs": [
+    {
+      "job_id": "2020-01",
+      "attempted_at": "2026-10-14T13:51:18.221297",
+      "discovered": 0,
+      "processed": 0,
+      "errors": ""
+    }
+  ],
+  "expected_months": 82,
+  "note": "Đã thử tìm kiếm ≠ hoàn tất tư liệu; nguồn có thể bị chặn/không được công cụ tìm kiếm lập chỉ mục."
+}

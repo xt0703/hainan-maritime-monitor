@@ -1,41 +1,75 @@
 <!doctype html>
 <html lang="vi">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover" />
-  <title>Hainan Maritime Warning Monitor</title>
-  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
-  <link rel="stylesheet" href="style.css" />
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="theme-color" content="#0e2440">
+  <title>Giám sát hoạt động quân sự trên Biển Đông | SCS Monitor</title>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+  <link rel="stylesheet" href="style.css?v=2">
 </head>
 <body>
-  <header>
-    <div>
-      <h1>Cảnh báo hàng hải Hải Nam</h1>
-      <p>Bắn đạn thật · Huấn luyện/diễn tập quân sự · 2025–2026</p>
-    </div>
-    <span id="lastUpdate" class="pill">Đang tải…</span>
+  <header class="topbar">
+    <div class="branding"><span class="brandmark">◈</span><div>
+      <h1>Giám sát hoạt động quân sự trên Biển Đông</h1>
+      <div class="subhead">Nguồn công khai: Cục Hải sự Trung Quốc · Bộ Quốc phòng Trung Quốc · Báo Quân đội Trung Quốc</div>
+    </div></div>
+    <div class="headright"><div class="live-dot"><i></i> THEO DÕI</div><div class="last" id="lastUpdate">Đang tải dữ liệu…</div></div>
   </header>
 
-  <section class="controls">
-    <label>Từ ngày <input type="date" id="fromDate"></label>
-    <label>Đến ngày <input type="date" id="toDate"></label>
-    <label>Năm
-      <select id="year"><option value="all">Tất cả</option><option>2026</option><option>2025</option></select>
-    </label>
-    <label>Loại
-      <select id="category"><option value="all">Tất cả</option><option value="LIVE_FIRE">Bắn đạn thật</option><option value="MILITARY_TRAINING">Quân sự</option></select>
-    </label>
-    <button id="reset">Đặt lại</button>
+  <div id="newBanner" class="banner" role="alert" aria-live="polite" hidden>
+    <div><strong>🚨 CÓ BẢN GHI MỚI</strong><span id="bannerDetails"></span></div>
+    <button id="closeBanner" type="button">Đã xem</button>
+  </div>
+
+  <section class="filterbar" aria-label="Bộ lọc">
+    <label class="searchbox"><span>🔎</span><input id="search" type="search" placeholder="Tìm từ khóa Việt/Trung, tên đảo, số航警, nội dung…" autocomplete="off"></label>
+    <label>Năm <select id="year"><option value="all">2020 – nay</option></select></label>
+    <label>Từ ngày <input id="fromDate" type="date"></label>
+    <label>Đến ngày <input id="toDate" type="date"></label>
+    <label>Loại <select id="category"><option value="all">Tất cả loại</option></select></label>
+    <label>Nguồn <select id="source"><option value="all">Tất cả nguồn</option><option value="MSA">Hải sự MSA</option><option value="MOD">Bộ QP (MOD)</option><option value="SEALAGOM">SeaLagom (tổng hợp)</option>
+        <option value="PLA81">Quân đội (81.cn)</option><option value="MIRROR">Nguồn dẫn lại</option></select></label>
+    <label class="toggle"><input id="activeOnly" type="checkbox"><span>Chỉ đang hiệu lực</span></label>
+    <button id="reset" type="button" class="reset">Xóa lọc</button>
   </section>
 
-  <main>
-    <div id="map"></div>
-    <aside id="list"></aside>
-  </main>
+  <section class="metrics" aria-label="Thống kê">
+    <div class="metric"><small>SỰ KIỆN ĐÃ THU THẬP</small><strong id="metricTotal">—</strong><span>Không đại diện tổng số thực tế</span></div>
+    <div class="metric"><small>TRONG BỘ LỌC</small><strong id="metricFiltered">—</strong><span>Thông báo/sự kiện được chuẩn hóa</span></div>
+    <div class="metric"><small>ĐANG HIỆU LỰC</small><strong id="metricActive">—</strong><span>Có thời gian cấm/hoạt động cụ thể</span></div>
+    <div class="metric"><small>CÓ VỊ TRÍ TRÊN BẢN ĐỒ</small><strong id="metricMapped">—</strong><span>Gồm tọa độ chính xác và mốc gần đúng</span></div>
+  </section>
 
-  <footer>Dữ liệu tham khảo từ Hainan MSA / China MSA. Không thay thế thông báo hàng hải chính thức.</footer>
+  <div class="workspace">
+    <section class="map-panel">
+      <div class="panelbar"><strong>Bản đồ khu vực hoạt động</strong><span>Cam: đang hiệu lực · Tím: sắp tới · Xám: hết hạn · Xanh: mốc địa danh</span></div>
+      <div id="map" role="region" aria-label="Bản đồ Biển Đông"></div>
+      <div class="map-note">Vùng MSA được vẽ từ tọa độ đã công bố. Dấu chấm PLA chỉ vị trí địa danh được nhắc đến, <b>không</b> phải ranh giới diễn tập.</div>
+    </section>
+    <aside class="event-panel">
+      <div class="panelbar"><strong>Danh sách thông báo</strong><span id="resultCount"></span></div>
+      <div id="list" class="event-list"><div class="loading">Đang tải thông báo…</div></div>
+    </aside>
+  </div>
 
+  <section class="analytics">
+    <div class="section-head"><h2>Thống kê theo thời gian</h2><span>Bấm một năm để lọc sự kiện</span></div>
+    <div class="charts">
+      <div class="chart-card"><h3>Số thông báo đã thu thập theo năm (2020 đến nay)</h3><div id="yearChart" class="year-chart"></div></div>
+      <div class="chart-card"><h3>Phân loại hoạt động trong bộ lọc</h3><div id="typeChart" class="type-chart"></div></div>
+    </div>
+    <div class="chart-card monthly"><h3>Xu hướng theo tháng trong năm đang chọn <span id="monthYearLabel"></span></h3><div id="monthChart" class="month-chart"></div></div>
+    <div class="health-card"><div class="section-head"><h2>Trạng thái thu thập</h2><span>Không có dữ liệu mới không đồng nghĩa nguồn đã được kiểm tra thành công</span></div><div id="health"></div><p id="coverageNote"></p></div>
+  </section>
+
+  <footer>
+    <strong>Thông tin tham khảo, không sử dụng thay thông báo hàng hải chính thức.</strong>
+    Thông cáo quân sự được ghi nhận là tuyên bố của nguồn đăng; thông tin chủ quyền/lãnh thổ không phải kết luận của hệ thống.
+    Dữ liệu từ 2020 đang được thu thập bổ sung và có thể thiếu đáng kể, nhất là khi nguồn chặn truy cập.
+    <span id="autoRefreshText">Trang tự kiểm tra dữ liệu 5 phút/lần khi mở.</span>
+  </footer>
   <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
-  <script src="app.js"></script>
+  <script src="app.js?v=2"></script>
 </body>
 </html>
