@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-10-15T05:26:53+00:00",
+  "generated_at": "2026-10-15T06:29:03+00:00",
   "sources": [
     {
       "source": "MOD",
-      "last_attempt": "2026-10-15T05:26:17+00:00",
+      "last_attempt": "2026-10-15T06:28:48+00:00",
       "last_success": null,
       "last_error": "Index https://www.mod.gov.cn/gfbw/qwfb/index.html: HTTPSConnectionPool(host='www.mod.gov.cn', port=443): Max retries exceeded with url: /gfbw/qwfb/index.html (Ca; https://www.mod.gov.cn/gfbw/wzll/nbzq/4862409.html: RuntimeError: direct:SSLError:HTTPSConnectionPool(host='www.mod.gov.cn', port=443): Max retries exceeded with url: /gfbw/wzll/nbzq/4862409.h; reader:HTTPError:422 Client Error: Unproce; https://www.mod.gov.cn/gfbw/qwfb/16278351.html: RuntimeError: direct:SSLError:HTTPSConnectionPool(host='www.mod.gov.cn', port=443): Max retries exceeded with url: /gfbw/qwfb/16278351.html ; reader:HTTPError:422 Client Error: Unproce; https://www.mod.gov.cn/gfbw/jsxd/ly/16477289.html: RuntimeError: direct:SSLError:HTTPSConnectionPool(host='www.mod.gov.cn', port=443): Max retries exceeded with url: /gfbw/jsxd/ly/16477289.ht; reader:HTTPError:422 Client Error: Unproce",
       "discovered": 3,
@@ -11,15 +11,15 @@
     },
     {
       "source": "MSA",
-      "last_attempt": "2026-10-15T05:25:15+00:00",
-      "last_success": "2026-10-15T05:25:15+00:00",
+      "last_attempt": "2026-10-15T06:28:04+00:00",
+      "last_success": "2026-10-15T06:28:04+00:00",
       "last_error": "Index https://www.msa.gov.cn/page/outter/weather.jsp: 403 Client Error: Forbidden for url: https://www.msa.gov.cn/page/outter/weather.jsp; Index https://www.hn.msa.gov.cn/hsfw_1_1/index.jhtml: 403 Client Error: Forbidden for url: https://www.hn.msa.gov.cn/hsfw_1_1/index.jhtml",
       "discovered": 1,
       "processed": 1
     },
     {
       "source": "PLA81",
-      "last_attempt": "2026-10-15T05:26:53+00:00",
+      "last_attempt": "2026-10-15T06:29:03+00:00",
       "last_success": null,
       "last_error": null,
       "discovered": 2,
@@ -27,8 +27,8 @@
     },
     {
       "source": "SEALAGOM",
-      "last_attempt": "2026-10-15T05:25:19+00:00",
-      "last_success": "2026-10-15T05:25:19+00:00",
+      "last_attempt": "2026-10-15T06:28:07+00:00",
+      "last_success": "2026-10-15T06:28:07+00:00",
       "last_error": null,
       "discovered": 2,
       "processed": 2
