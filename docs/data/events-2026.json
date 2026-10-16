@@ -1,5 +1,60 @@
 [
   {
+    "event_id": "MSA-GD747-26",
+    "year": 2026,
+    "category": "LIVE_FIRE",
+    "title_zh": "粤航警747/26 粤航警747/26，南海，10月20日0900时至1600时，在以下四点连线海域内进行实弹射击：\n（1）\n21-47.00N 113-38.00E\n；\n（2）\n21-47.00N 113-41.00E",
+    "title_vi": "Bắn đạn thật — GD747/26",
+    "summary_zh": "粤航警747/26，南海，10月20日0900时至1600时，在以下四点连线海域内进行实弹射击：\n（1）\n21-47.00N 113-38.00E\n；\n（2）\n21-47.00N 113-41.00E\n；\n（3）\n21-44.00N 113-41.00E\n；\n（4）\n21-44.00N 113-38.00E\n。禁止驶入。",
+    "summary_vi": "Bắn đạn thật tại Biển Đông; khu vực được trích từ thông báo hàng hải dẫn lại bởi SeaLagom. Thông báo nêu cấm đi vào khu vực.",
+    "translation_status": "glossary",
+    "start_at": "2026-10-20T08:00:00+07:00",
+    "end_at": "2026-10-20T15:00:00+07:00",
+    "date_precision": "EXACT_RESTRICTION",
+    "published_at": null,
+    "daily_window_cn": null,
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            113.633333,
+            21.783333
+          ],
+          [
+            113.683333,
+            21.783333
+          ],
+          [
+            113.683333,
+            21.733333
+          ],
+          [
+            113.633333,
+            21.733333
+          ],
+          [
+            113.633333,
+            21.783333
+          ]
+        ]
+      ]
+    },
+    "geometry_precision": "MSA_REPOST_COORDINATES",
+    "place_zh": "南海",
+    "place_vi": "Biển Đông",
+    "sources": [
+      {
+        "url": "https://www.sealagom.com/coastal/China%20Coastal/Guangdong",
+        "source": "SEALAGOM",
+        "kind": "public_secondary_aggregator"
+      }
+    ],
+    "notice_number": "GD747/26",
+    "first_seen_at": "2026-10-16T02:55:42+00:00",
+    "updated_at": "2026-10-16T02:55:42+00:00"
+  },
+  {
     "event_id": "MSA-GD742-26",
     "year": 2026,
     "category": "LIVE_FIRE",
