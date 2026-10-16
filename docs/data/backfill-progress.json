@@ -48,6 +48,27 @@
       "discovered": 0,
       "processed": 0,
       "errors": ""
+    },
+    {
+      "job_id": "2020-08",
+      "attempted_at": "2026-10-17T02:28:15.892475",
+      "discovered": 0,
+      "processed": 0,
+      "errors": ""
+    },
+    {
+      "job_id": "2020-09",
+      "attempted_at": "2026-10-17T02:28:18.892554",
+      "discovered": 0,
+      "processed": 0,
+      "errors": ""
+    },
+    {
+      "job_id": "2020-10",
+      "attempted_at": "2026-10-17T02:28:21.772471",
+      "discovered": 0,
+      "processed": 0,
+      "errors": "RSS: no element found: line 1, column 0; RSS: no element found: line 1, column 0"
     }
   ],
   "expected_months": 82,
