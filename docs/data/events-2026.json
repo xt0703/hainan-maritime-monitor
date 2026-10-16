@@ -149,16 +149,16 @@
     "event_id": "MSA-HN197-26",
     "year": 2026,
     "category": "MILITARY_TRAINING",
-    "title_zh": "琼197/26 军事训练—琼航警197/26 - 中华人民共和国海事局",
+    "title_zh": "琼航警197/26 琼航警197/26，南海，2026年10月14日至10月31日，在18-07-20N 109-37-50E；18-07-20N 109-41-20E；18-04-50N 109-41-20E；18-0",
     "title_vi": "Huấn luyện quân sự — HN197/26",
-    "summary_zh": "琼航警197/26，南海，2026年10月14日至10月31日，在18-07-20N 109-37-50E；18-07-20N 109-41-20E；18-04-50N 109-41-20E；18-04-50N 109-37-50E，四点连线水域范围内进行军事训练，禁止驶入。\n收藏\n打印本页\n关闭窗口\n下载PDF文件\n分享到微信朋友圈\nx\n打开微信，点击底部的“发现”，\n使用“扫一扫”即可将网页分享至朋友圈。",
-    "summary_vi": "Huấn luyện quân sự tại Biển Đông. Có vùng tọa độ hàng hải. Nguồn nêu cấm đi vào.",
+    "summary_zh": "琼航警197/26，南海，2026年10月14日至10月31日，在18-07-20N 109-37-50E；18-07-20N 109-41-20E；18-04-50N 109-41-20E；18-04-50N 109-37-50E，四点连线水域范围内进行军事训练，禁止驶入。",
+    "summary_vi": "Huấn luyện quân sự tại Biển Đông; khu vực được trích từ thông báo hàng hải dẫn lại bởi SeaLagom. Thông báo nêu cấm đi vào khu vực. Thời gian chỉ xác định theo ngày, chưa xác định giờ chính xác.",
     "translation_status": "glossary",
     "start_at": "2026-10-13T23:00:00+07:00",
     "end_at": "2026-10-31T22:59:59+07:00",
     "date_precision": "DATE_RANGE_DAY_LEVEL",
+    "published_at": null,
     "daily_window_cn": null,
-    "published_at": "2026-10-13T22:46:00+08:00",
     "geometry": {
       "type": "Polygon",
       "coordinates": [
@@ -203,7 +203,7 @@
     ],
     "notice_number": "HN197/26",
     "first_seen_at": "2026-10-14T06:50:33+00:00",
-    "updated_at": "2026-10-16T07:02:21+00:00"
+    "updated_at": "2026-10-16T08:04:35+00:00"
   },
   {
     "event_id": "MSA-HN196-26",
