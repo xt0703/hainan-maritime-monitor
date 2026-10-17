@@ -12,3 +12,10 @@ logs/
 /logs/
 *.backup
 /backups/
+# SCS v2 local state and logs
+/data/*.sqlite3
+/data/*.sqlite3-shm
+/data/*.sqlite3-wal
+/logs/
+*.backup
+/backups/
